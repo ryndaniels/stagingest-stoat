@@ -3,7 +3,7 @@ language: generic
 sudo: required
 script:
   - echo "cats"
-after_install:
+after_script:
   - cowsay "foo"
 jobs:
   include:
