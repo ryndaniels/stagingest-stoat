@@ -8,6 +8,6 @@ after_script:
 jobs:
   include:
     - addons:
-      apt:
-        packages:
-          - cowsay
+        apt:
+          packages:
+            - cowsay
