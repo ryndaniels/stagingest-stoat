@@ -1,13 +1,6 @@
-os: linux
-language: generic
-sudo: false
+os: osx
+language: objective-c
+osx_image: xcode9.4beta
 script:
   - echo "cats"
-after_script:
-  - cowsay "foo"
-jobs:
-  include:
-    - addons:
-        apt:
-          packages:
-            - cowsay
+
